@@ -1,0 +1,241 @@
+
+@font-face {
+  font-family: 'MyriadPro-Regular' ;
+  src: url(./fonts/MyriadProRegular.ttf);
+}
+.body {
+    width: 750px;
+    margin: 0px auto;
+    position: relative;
+    font-size: 1.2em;
+
+}
+
+
+.header {
+width: 750px;
+ height: 235px;
+ margin: 0 auto;
+ padding-top: 0 auto;
+background-color: #2d7053;
+}
+
+.logo{
+display: inline-block;
+margin-left: 45px;
+margin-top: 45px;
+
+}
+.main-text {
+ display: inline-block;
+ width: 150px;
+ height: 131px;
+ font-family: 'MyriadPro-Regular';
+ font-size: 30px;
+ color: rgba(255, 255, 255);
+ text-align: left;
+ margin-left: 50px;
+ margin-bottom: 140px;
+ vertical-align: middle;
+}
+.menu{
+ display: inline-block;
+ text-align: center;
+ vertical-align: middle;
+ margin-block-end: 113px;
+ margin-left: 223px;
+}
+.menu-one{
+ width: 84px;
+ height: 12px;
+ display: block;
+ margin-bottom: 16px;
+}
+.menu-two{
+ width: 84px;
+ height: 12px;
+ display: block;
+ margin-bottom: 16px;
+}
+.menu-three{
+ width: 84px;
+ height: 12px;
+ display: block;
+ margin-bottom: 16px;
+}
+.container {
+ width: 750px;
+ height: 466px;
+ margin: 0 auto;
+ position: relative;
+}
+.background {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background-image: url(./img/Фон\ 1.png);
+}
+.link {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+.button { 
+  position: absolute;
+  text-align: center;
+  width: 341px;
+  height: 71px;
+  margin-top: -135px;
+  margin-left: 205px;
+  text-decoration: none;
+  background: #CB9223;
+  color: white;
+  font-size: 1.2em;
+}
+.txt {
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  margin-block: -111px;
+  margin-left: 245px;
+  font-family: 'MyriadPro-Regular';
+  font-size: 23px;
+  color: rgba(255, 255, 255, 255);
+  text-align: left;
+}
+.description {
+  width: 750px;
+  height: 1020px;
+  margin: 0 auto;
+  position: relative;
+}
+.desc_top {
+  height: 247px;
+  margin-left: -44px;
+  margin-top: 73px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.desc_top_img img {
+ border-radius: 50%;
+}
+.desc_content {
+  width: 245px;
+  display: inline-block;
+  font-family:'MyriadPro-Regular';
+  color: rgba(0, 0, 0, 255);
+  text-align: left;
+}
+.name {
+  display: inline-block;
+  font-size: 2em;
+  margin-bottom: 0px;
+}
+.spec {
+  height: 50px;
+ font-size: 21px;
+}
+.about {
+  display: inline-block;
+  width: 590px;
+  font-family: 'MyriadPro-Regular';
+  font-size: 21px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 44px;
+}
+.list {
+  width: 545px;
+  height: 32px;
+  font-family: 'MyriadPro-Regular';
+  font-size: 31px;
+  color: rgba(0, 0, 0, 255);
+  text-align: left;
+  margin-top: 46px;
+}
+.reasons {
+  width: 256px;
+  height: 190px;
+  list-style-type: none;
+  margin-left: -33px;
+  margin-top: 43px;
+}
+li::before {
+  content: '-';
+  position: relative;
+  left: -5px;
+}
+.link_two {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.button_two { 
+  position: absolute;
+  text-align: center;
+  width: 341px;
+  height: 71px;
+  margin-top: -12px;
+  margin-left: 174px;
+  text-decoration: none;
+  background: #CB9223;
+  color: white;
+  font-size: 1.2em;
+}
+.txt_two {
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  margin-block: 12px;
+  margin-left: 210px;
+  font-family: 'MyriadPro-Regular';
+  font-size: 23px;
+  color: rgba(255, 255, 255, 255);
+  text-align: left;
+}
+.footer {
+  width: 750px;
+  height: 153px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #888888;
+}
+.foot_logo {
+  width: 96px;
+  height: 96px;
+  margin-left: 45px;
+  margin-top: 29px;
+}
+.map {
+  display: inline-block;
+  margin-left: 251px;
+  font-family: 'MyriadPro-Regular';
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+}
+.cont {
+  display: inline-block;
+  margin-left: 38px;
+  
+}
+.tel {
+  font-family: 'MyriadPro-Regular';
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+}
+.mail {
+  font-family: 'MyriadPro-Regular';
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+}
